@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# AdSearch FrontEnd
+*_"식품 허위·과대광고 업체 및 제품검색 서비스"_*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 🚩 **기획배경**
 
-## Available Scripts
+- YouTube, SNS등 광고 채널이 늘어나면서 식품 허위·과대광고 증가
+- 무분별한 과대광고에 많은 피해자 발생 → 개선되지 않고 현재에도 지속중
+- 소비자가 식품 허위·과대광고를 판별하는 능력이 필요하다고 생각함
 
-In the project directory, you can run:
+### 🚩 **기획목표**
 
-### `npm start`
+- 식품 허위·과대광고정보 서비스를  제공함으로서 소비자의 피해 줄이기
+- 식품 허위·과대광고를 한 업체 혹은 제품을 검색할 수 있는 서비스 개발
+- 더치트와 유사한 서비스 제공
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🚩 **발전 가능성**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 사용자 제보 등 데이터 수집도구로서의 기능 개발
+- 데이터 분석을 통해 부가적인 기능 개발
 
-### `npm test`
+### 사용 라이브러리
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Ant Design | UI/UX 디자인](https://ant.design/)
 
-### `npm run build`
+[G2Plot | 차트 생성](https://g2plot.antv.vision/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[axios | API 통신](https://github.com/axios/axios)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 👯 FrontEnd
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`React` 프레임워크를 기반으로 `Ant Design`, `G2Plot`, `axios` 등의 라이브러리를 사용하였습니다.
+- UI Design `Ant Design` - 여러 컴포넌트를 활용한 디자인
+- `G2Plot` - Data에 맞는 차트 렌더링
+- HTTP 비동기 통신 라이브러리 `axios` - REST API와의 통신
 
-### `npm run eject`
+`송영범` 홈페이지 UI/UX 설계 및 구현  
+`김경환` 홈페이지 UI/UX 설계 및 구현  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+저희팀의 백 엔드가 궁금하신가요? 👉🏻 [SWM-AdSearch-BackEnd](https://github.com/swm-pgui/SWM-AdSearch-Intergrated/tree/main/SWM-AdSearch-BackEnd-main)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. `nodejs` 와 `npm` 의 설치가 선행되어야 합니다.  
+관련 설치페이지 -> [Download | Node.js](https://nodejs.org/en/download/)  
+2. change directory to `adsearch/` then execute command    
+   > $ npm install    
+$ npm start  
+3. 브라우저에서 [http://localhost:3000/](http://localhost:3000/) 에 접속해서 확인하실 수 있습니다.
