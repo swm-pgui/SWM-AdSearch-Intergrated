@@ -22,5 +22,5 @@
 사용한 API 입니다. [공공데이터 포털 | 식품의약품안전처_식품 허위·과대광고정보](https://www.data.go.kr/data/15058599/openapi.do)
 
 ---
-저희팀의 프론트 엔드가 궁금하신가요? 👉🏻  [SWM-AdSearch-FrontEnd](https://github.com/swm-pgui/SWM-AdSearch-Intergrated/tree/main/SWM-AdSearch-FrontEnd-main)  
-저희팀의 백엔드가 궁금하신가요? 👉🏻  [SWM-AdSearch-BackEnd](https://github.com/swm-pgui/SWM-AdSearch-Intergrated/tree/main/SWM-AdSearch-BackEnd-main)  
+저희팀의 프론트 엔드가 궁금하신가요? 👉🏻  [SWM-AdSearch-FrontEnd](https://github.com/swm-pgui/SWM-AdSearch-FrontEnd)  
+저희팀의 백엔드가 궁금하신가요? 👉🏻  [SWM-AdSearch-BackEnd](https://github.com/swm-pgui/SWM-AdSearch-BackEnd)  
