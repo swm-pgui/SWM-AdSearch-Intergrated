@@ -9,7 +9,7 @@
 `신봉근` aws ec2, rds를 이용하여 인프라 구축, domain 설계 및 구현   
 `이창하` Controller작성 및 구현  
 
-저희팀의 프론트 엔드가 궁금하신가요? 👉🏻 [SWM-AdSearch-FrontEnd](https://github.com/swm-pgui/SWM-AdSearch-Intergrated/edit/main/SWM-AdSearch-FrontEnd-main)
+저희팀의 프론트 엔드가 궁금하신가요? 👉🏻 [SWM-AdSearch-FrontEnd](https://github.com/swm-pgui/SWM-AdSearch-Intergrated/tree/main/SWM-AdSearch-FrontEnd-main)
 
 ## How to build
 
